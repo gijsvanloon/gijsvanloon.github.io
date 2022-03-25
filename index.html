@@ -10,15 +10,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- css -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
     <title>Gijs van Loon</title>
 </head>
-<body class="bg-white text-dark">
+<body>
     <!-- first block -->
     <div class="container position-relative vh-100">
         <br>
         <!-- navigation -->
-        <nav class="navbar navbar-expand-md navbar-light text-dark">
-            <a href="index.html" class="navbar-brand fw-bold">Gijs van Loon</a>
+        <nav class="navbar navbar-expand-md">
+            <a href="index.html" class="navbar-brand fw-bold">GvL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,86 +32,54 @@
                         <a href="#" class="nav-link">Projects</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link">About</a>
+                        <a href="about.html" class="nav-link">About</a>
                     </li>
-                    <button id="contactBtn" class="btn btn-primary">Contact</button>
+                    <li>
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>        
-        <!-- main -->
         <div class="row">
-            <div class="col-md-6 position-absolute top-50 start-0 translate-middle-y">
-                <h1 class="fw-bold">Hi my name is Gijs and I'm a software engineering student.</h1>                
-                <a href="#secondBlock"><p>Have a look at my portfolio <i class="bi bi-arrow-down"></i></p></a>
+            <div class="col-md-7 offset-md-1 position-absolute top-50 start-0 translate-middle-y">
+                <h1 id="title">Hi my name is Gijs and I'm a software engineering student.</h1>
+                <br>
+                <p><i class="bi bi-arrow-right-short"></i> Get in touch</p>
             </div>
-            <div class="col-md-6 position-absolute top-50 end-0 translate-middle-y d-none d-sm-none d-md-block">
-                <img class="img-thumbnail border-0" src="img.png" alt="img">
+        </div>
+        <div class="position-absolute bottom-0 end-0">
+            <p>Scroll to discover <i class="bi bi-arrow-down-short"></i></p>
+        </div>
+    </div>
+    <br>
+    <!-- second content -->
+    <div class="container position-relative vh-100">
+        <div class="row">
+            <div class="col-md-8">
+                <figure class="figure">
+                    <img src="shinehome.png" class="figure-img img-fluid rounded">
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <h3>Project Title</h3>
+                <h6>Project description</h6>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem hic facilis, porro quae repudiandae sed! Porro dolore in voluptatum.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 text-end">
+                <h3>Project Title</h3>
+                <h6>Project description</h6>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem hic facilis, porro quae repudiandae sed! Porro dolore in voluptatum.</p>
+            </div>
+            <div class="col-md-8">
+                <img src="shinehome.png" class="figure-img img-fluid rounded">
             </div>
         </div>
     </div>
-    <!-- second block -->
-    <div class="container position-relative vh-100" id="secondBlock">
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="fw-bold" >Projects</h1>
-                <p>View all my recent projects here</p>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Project One</h3>
-                <p>Omschrijving van project.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-fluid float-end" src="https://www.lean-6-sigma.nl/wp-content/uploads/Project-charter-1.jpg" alt="">
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-md-6">                
-                <img class="img-fluid" src="https://www.lean-6-sigma.nl/wp-content/uploads/Project-charter-1.jpg" alt="">
-            </div>
-            <div class="col-md-6">
-                <div class="float-end text-end">
-                    <h3>Project One</h3>
-                    <p>Omschrijving van project.</p>
-                </div>                
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Project One</h3>
-                <p>Omschrijving van project.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-fluid float-end" src="https://www.lean-6-sigma.nl/wp-content/uploads/Project-charter-1.jpg" alt="">
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-md-6">                
-                <img class="img-fluid" src="https://www.lean-6-sigma.nl/wp-content/uploads/Project-charter-1.jpg" alt="">
-            </div>
-            <div class="col-md-6">
-                <div class="float-end text-end">
-                    <h3>Project One</h3>
-                    <p>Omschrijving van project.</p>
-                </div>                
-            </div>
-        </div>
-    </div>
-
     <!-- bootstrap javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

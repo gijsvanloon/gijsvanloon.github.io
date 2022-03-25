@@ -4,23 +4,35 @@
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
-    background: #FFFFFC;
+    background: #191A19;
+    color: #F7ECDE;
+}
+
+a {
+    color: #F7ECDE;
+}
+
+a:hover {
+    color: #F7ECDE;
+}
+
+.nav-link {
+    color: #F7ECDE;
+}
+
+.nav-link:hover {
+    color: #F7ECDE;
+}
+
+#title {
+    font-size: 70px;
+}
+
+hr {
+    border: 2  px solid #F7ECDE;
 }
 
 ::selection {
-    background: #00B295;
-    color: #FFFFFC;
-}
-
-.card {
-    border: none;
-    background-color: gray;
-    color: white;
-    padding: 5%;
-    border-radius: 25px;
-}
-
-#contactBtn {
-    background-color: #F3A712;
-    border: none;
-}
+    background: #F7ECDE;
+    color: #191A19;
+}   
