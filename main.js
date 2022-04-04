@@ -14,3 +14,9 @@ function randomBackground() {
     // https://www.youtube.com/watch?v=1YjybCS4B2U
     // https://www.youtube.com/watch?v=OiSekG3DHbg
 }
+
+const cursor = document.querySelector('.cursor');
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+})
