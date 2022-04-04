@@ -78,7 +78,7 @@ hr {
     width: 100vw;
     height: 100vh;
     content: "";
-    opacity: .05;      
+    opacity: .02;      
     pointer-events: none;
     background: url(Images/noise_3.gif);
 }
