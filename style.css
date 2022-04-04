@@ -68,3 +68,16 @@ hr {
 #copyEmail:active:after {
     content: "Copied!";
 }
+
+/* noice effect */
+.noise::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    opacity: .05;      
+    pointer-events: none;
+    background: url(Images/noise_5.gif);
+}
