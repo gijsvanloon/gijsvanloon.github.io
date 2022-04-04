@@ -35,4 +35,36 @@ hr {
 ::selection {
     background: #F7ECDE;
     color: #191A19;
-}   
+}
+
+#getInTouch:after {
+    content: "Get in touch";
+}
+
+#getInTouch:hover {
+    cursor: pointer;
+}
+
+#getInTouch:hover:after {
+    content: "Copy email?";
+}
+
+#getInTouch:active:after {
+    content: "Copied!";
+}
+
+#copyEmail:after {
+    content: "Email";
+}
+
+#copyEmail:hover {
+    cursor: pointer;
+}
+
+#copyEmail:hover:after {
+    content: "Copy email?";
+}
+
+#copyEmail:active:after {
+    content: "Copied!";
+}
