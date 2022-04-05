@@ -72,7 +72,7 @@ hr {
 }
 
 /* noice effect */
-#noise::before{
+#noise  {
     position: fixed;
     top: 0;
     left: 0;
@@ -81,7 +81,6 @@ hr {
     content: "";
     opacity: .02;      
     pointer-events: none;
-    /* background: url(Images/noise_3.gif); */
 }
 
 .cursor {

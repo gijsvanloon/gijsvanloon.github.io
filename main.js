@@ -8,15 +8,13 @@ function copyFunction() {
 backgroundImages = ['Images/noise_1.gif', 'Images/noise_2.gif', 'Images/noise_3.gif', 'Images/noise_4.gif', 'Images/noise_5.gif'];
 
 function randomBackground() {
-    console.log("test");
-
     randomIndex = Math.floor(Math.random() * backgroundImages.length);
     
     currentBackground = backgroundImages[randomIndex];
 
-    console.log(currentBackground);
+    test = 'url(' + currentBackground + ')';
 
-    document.getElementById('noise').style.background = 'url(' + currentBackground + ')';    
+    document.getElementById('noise').style.background = `url(${currentBackground})`;
 }
 
 // cursor function
