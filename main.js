@@ -1,20 +1,25 @@
+// copy email funciton
 function copyFunction() {
     navigator.clipboard.writeText('g.van.loon@sintlucasedu.nl');
 }
 
-backgroundImages = ['noise_1', 'noise_2', 'noise_3', 'noise_4', 'noise_5'];
+// random background function
+
+backgroundImages = ['Images/noise_1.gif', 'Images/noise_2.gif', 'Images/noise_3.gif', 'Images/noise_4.gif', 'Images/noise_5.gif'];
 
 function randomBackground() {
+    console.log("test");
+
     randomIndex = Math.floor(Math.random() * backgroundImages.length);
     
     currentBackground = backgroundImages[randomIndex];
 
-    document.getElementsByClassName('noise').style.background = "url(/Images/${currentBackground})";
+    console.log(currentBackground);
 
-    // https://www.youtube.com/watch?v=1YjybCS4B2U
-    // https://www.youtube.com/watch?v=OiSekG3DHbg
+    document.getElementById('noise').style.background = 'url(' + currentBackground + ')';    
 }
 
+// cursor function
 const cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove', (e) => {
     cursor.style.left = e.pageX + 'px';

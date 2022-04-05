@@ -54,24 +54,25 @@ hr {
     content: "Copied!";
 }
 
-#copyEmail:after {
-    content: "Email";
+/* Nederlands */
+#getInTouchDutch:after {
+    content: "Neem contact op";
 }
 
-#copyEmail:hover {
+#getInTouchDutch:hover {
     cursor: pointer;
 }
 
-#copyEmail:hover:after {
-    content: "Copy email?";
+#getInTouchDutch:hover:after {
+    content: "Email kopiëren?";
 }
 
-#copyEmail:active:after {
-    content: "Copied!";
+#getInTouchDutch:active:after {
+    content: "Gekopieerd!";
 }
 
 /* noice effect */
-.noise::before{
+#noise::before{
     position: fixed;
     top: 0;
     left: 0;
@@ -80,7 +81,7 @@ hr {
     content: "";
     opacity: .02;      
     pointer-events: none;
-    background: url(Images/noise_3.gif);
+    /* background: url(Images/noise_3.gif); */
 }
 
 .cursor {
