@@ -4,8 +4,7 @@ function copyFunction() {
 }
 
 // random background function
-
-backgroundImages = ['Images/noise_1.gif', 'Images/noise_2.gif', 'Images/noise_3.gif', 'Images/noise_4.gif', 'Images/noise_5.gif'];
+backgroundImages = ['/Images/noise_1.gif', '/Images/noise_2.gif', '/Images/noise_3.gif', '/Images/noise_4.gif', '/Images/noise_5.gif'];
 
 function randomBackground() {
     randomIndex = Math.floor(Math.random() * backgroundImages.length);
@@ -17,9 +16,9 @@ function randomBackground() {
     document.getElementById('noise').style.background = `url(${currentBackground})`;
 }
 
-// cursor function
-const cursor = document.querySelector('.cursor');
-document.addEventListener('mousemove', (e) => {
-    cursor.style.left = e.pageX + 'px';
-    cursor.style.top = e.pageY + 'px';
-})
+// // cursor function
+// const cursor = document.querySelector('.cursor');
+// document.addEventListener('mousemove', (e) => {
+//     cursor.style.left = e.pageX + 'px';
+//     cursor.style.top = e.pageY + 'px';
+// })
