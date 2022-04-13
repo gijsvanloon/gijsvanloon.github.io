@@ -24,10 +24,6 @@ a:hover {
     color: #F7ECDE;
 }
 
-#title {
-    font-size: 70px;
-}
-
 hr {
     border: 2  px solid #F7ECDE;
 }
@@ -92,4 +88,47 @@ hr {
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode: difference;
+}
+
+/* fade in animation */
+
+#navAni {
+    display: block;
+    opacity: 0;
+    animation: revealText 1s forwards;
+}
+
+#title {
+    font-size: 70px;
+    display: block;
+    opacity: 0;
+    animation: revealText 1s forwards .175s;
+}
+
+#getInTouch {
+    display: block;
+    opacity: 0;
+    animation: revealText 1s forwards .25s;
+}
+
+#getInTouchDutch {
+    display: block;
+    opacity: 0;
+    animation: revealText 1s forwards .25s;
+}
+
+#discover {
+    display: block;
+    opacity: 0;
+    animation: revealText 1s forwards .325s;
+}
+
+@keyframes revealText {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
