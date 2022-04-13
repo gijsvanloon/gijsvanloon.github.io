@@ -96,6 +96,7 @@ hr {
     display: block;
     opacity: 0;
     animation: revealText 1s forwards;
+    color: #F7ECDE;
 }
 
 #title {
